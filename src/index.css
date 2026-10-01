@@ -1,0 +1,121 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans:
+    'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+    sans-serif;
+  --font-serif:
+    'Fraunces', ui-serif, Georgia, 'Times New Roman', serif;
+
+  --color-forest-50: #eef4f0;
+  --color-forest-100: #d9e5dd;
+  --color-forest-200: #b2ccbb;
+  --color-forest-300: #83ac92;
+  --color-forest-400: #58896b;
+  --color-forest-500: #3e6f52;
+  --color-forest-600: #2b5840;
+  --color-forest-700: #1f4632;
+  --color-forest-800: #173b2b;
+  --color-forest-900: #102a1f;
+  --color-forest-950: #081a12;
+
+  --color-leaf-50: #f1f5ef;
+  --color-leaf-100: #dfe8db;
+  --color-leaf-200: #bfd2b8;
+  --color-leaf-300: #99b78f;
+  --color-leaf-400: #709d66;
+  --color-leaf-500: #4f7d4a;
+  --color-leaf-600: #41693d;
+  --color-leaf-700: #355332;
+  --color-leaf-800: #2b4429;
+  --color-leaf-900: #223724;
+  --color-leaf-950: #141e15;
+
+  --color-cream-50: #fbf9f3;
+  --color-cream-100: #f5f1e6;
+  --color-cream-200: #ede6d4;
+  --color-cream-300: #e0d5ba;
+  --color-cream-400: #cfbe98;
+
+  --color-ink-100: #e9ebe3;
+  --color-ink-200: #c4c9bd;
+  --color-ink-300: #9aa292;
+  --color-ink-400: #6b7568;
+  --color-ink-500: #4c564b;
+  --color-ink-600: #354037;
+  --color-ink-700: #262f28;
+  --color-ink-800: #1e2620;
+  --color-ink-900: #172019;
+  --color-ink-950: #0d120d;
+
+  --shadow-card: 0 1px 2px rgb(23 32 25 / 0.05), 0 4px 16px rgb(23 32 25 / 0.06);
+  --shadow-lift: 0 2px 4px rgb(23 32 25 / 0.06), 0 12px 32px rgb(23 32 25 / 0.12);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream-50 font-sans text-ink-800 antialiased;
+    font-feature-settings: 'cv02', 'cv03', 'cv04';
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif text-forest-900;
+  }
+
+  ::selection {
+    background-color: var(--color-forest-800);
+    color: var(--color-cream-100);
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-leaf-500;
+  }
+}
+
+@utility container-page {
+  @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+}
+
+@keyframes page-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@utility animate-page-in {
+  animation: page-in 0.35s ease-out both;
+}
+
+.hero-parallax {
+  perspective: 900px;
+}
+
+.hero-parallax svg {
+  --px: 0px;
+  --py: 0px;
+  transform: translateX(var(--px)) translateY(var(--py))
+    rotateY(calc(var(--px) * -0.12deg)) rotateX(calc(var(--py) * 0.12deg));
+  transition: transform 0.3s ease-out;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-parallax svg {
+    transform: none;
+    transition: none;
+  }
+}

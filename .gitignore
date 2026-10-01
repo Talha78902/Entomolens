@@ -1,0 +1,18 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.env
+.env.local
+.env.*.local
+supabase/.temp
+
+# Local diagnostic / debugging output
+identify-debug.log
+*.debug.log
+diag*.mjs
+vite-dev.log
+
+# Cached downloads for scripts/host-specimen-images.mjs
+.cache

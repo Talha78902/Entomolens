@@ -1,0 +1,216 @@
+{
+  "generatedFrom": "iNaturalist API",
+  "licences": [
+    "cc0",
+    "cc-by"
+  ],
+  "crops": [
+    {
+      "name": "Cotton",
+      "scientific_name": "Gossypium hirsutum",
+      "search": [
+        "Gossypium hirsutum",
+        "Gossypium"
+      ],
+      "plant": "Angiosperms",
+      "taxonId": 77299,
+      "matched": "Gossypium hirsutum",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168584620/large.jpeg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/100974375",
+      "votes": 1,
+      "quality": "research"
+    },
+    {
+      "name": "Wheat",
+      "scientific_name": "Triticum aestivum",
+      "search": [
+        "Triticum aestivum",
+        "Triticum"
+      ],
+      "plant": "Angiosperms",
+      "taxonId": 64161,
+      "matched": "Triticum aestivum",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49680227/large.jpg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/31723772",
+      "votes": 1,
+      "quality": "research"
+    },
+    {
+      "name": "Maize",
+      "scientific_name": "Zea mays",
+      "search": [
+        "Zea mays",
+        "Zea"
+      ],
+      "plant": "Angiosperms",
+      "taxonId": 48448,
+      "matched": "Zea mays",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/608309866/large.jpg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/334914399",
+      "votes": 1,
+      "quality": "research"
+    },
+    {
+      "name": "Rice",
+      "scientific_name": "Oryza sativa",
+      "search": [
+        "Oryza sativa",
+        "Oryza"
+      ],
+      "plant": "Angiosperms",
+      "taxonId": 61381,
+      "matched": "Oryza sativa",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/431111691/large.jpeg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/241861087",
+      "votes": 0,
+      "quality": "research"
+    },
+    {
+      "name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "search": [
+        "Solanum lycopersicum",
+        "Solanum lycopersicum var. lycopersicum",
+        "Lycopersicon esculentum"
+      ],
+      "plant": "Angiosperms",
+      "taxonId": 51737,
+      "matched": "Solanum lycopersicum",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7503805/large.jpg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "http://naturewatch.org.nz/observations/5999898",
+      "votes": 1,
+      "quality": "research"
+    },
+    {
+      "name": "Okra",
+      "scientific_name": "Abelmoschus esculentus",
+      "search": [
+        "Abelmoschus esculentus",
+        "Abelmoschus"
+      ],
+      "plant": "Angiosperms",
+      "taxonId": 157765,
+      "matched": "Abelmoschus esculentus",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457507977/large.jpeg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/255305879",
+      "votes": 0,
+      "quality": "research"
+    },
+    {
+      "name": "Chickpea",
+      "scientific_name": "Cicer arietinum",
+      "search": [
+        "Cicer arietinum",
+        "Cicer"
+      ],
+      "plant": "Angiosperms",
+      "taxonId": 122854,
+      "matched": "Cicer arietinum",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84036603/large.jpg",
+      "license": "cc-by",
+      "attribution": "(c) Nico Hernandez, some rights reserved (CC BY)",
+      "observationUrl": "https://www.inaturalist.org/observations/52851661",
+      "votes": 0,
+      "quality": "research"
+    },
+    {
+      "name": "Sugarcane",
+      "scientific_name": "Saccharum officinarum",
+      "search": [
+        "Saccharum officinarum",
+        "Saccharum",
+        "Saccharum hybrid cultivar"
+      ],
+      "plant": "Angiosperms",
+      "taxonId": 128270,
+      "matched": "Saccharum officinarum",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460248352/large.jpg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/256667605",
+      "votes": 0,
+      "quality": "research"
+    },
+    {
+      "name": "Potato",
+      "scientific_name": "Solanum tuberosum",
+      "search": [
+        "Solanum tuberosum",
+        "Solanum tuberosum group tuberosum"
+      ],
+      "plant": "Angiosperms",
+      "taxonId": 53858,
+      "matched": "Solanum tuberosum",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34777612/large.jpeg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/22452271",
+      "votes": 1,
+      "quality": "research"
+    },
+    {
+      "name": "Brinjal",
+      "scientific_name": "Solanum melongena",
+      "search": [
+        "Solanum melongena",
+        "Solanum incanum",
+        "Solanum melongena group esculentum"
+      ],
+      "plant": "Angiosperms",
+      "taxonId": 199161,
+      "matched": "Solanum incanum",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738909283/large.jpg",
+      "license": "cc-by",
+      "attribution": "(c) Krzysztof Ziarnek, some rights reserved (CC BY)",
+      "observationUrl": "https://www.inaturalist.org/observations/402502701",
+      "votes": 0,
+      "quality": "research"
+    },
+    {
+      "name": "Chilli",
+      "scientific_name": "Capsicum annuum",
+      "search": [
+        "Capsicum annuum",
+        "Capsicum"
+      ],
+      "plant": "Angiosperms",
+      "taxonId": 48514,
+      "matched": "Capsicum annuum",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/574424357/large.jpg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/317867393",
+      "votes": 0,
+      "quality": "research"
+    },
+    {
+      "name": "Cucumber",
+      "scientific_name": "Cucumis sativus",
+      "search": [
+        "Cucumis sativus",
+        "Cucumis"
+      ],
+      "plant": "Angiosperms",
+      "taxonId": 54919,
+      "matched": "Cucumis sativus",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49570048/large.jpeg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/31658105",
+      "votes": 1,
+      "quality": "research"
+    }
+  ]
+}

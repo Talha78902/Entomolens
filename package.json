@@ -1,0 +1,52 @@
+{
+  "name": "entomolens",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "host:specimens": "node scripts/host-specimen-images.mjs --upload",
+    "source:photos": "node scripts/source-species-photos.mjs --write",
+    "host:extended": "node scripts/host-extended-photos.mjs --upload",
+    "check:migration": "node scripts/check-extended-refs.mjs",
+    "emit:statements": "node scripts/emit-statements.mjs",
+    "seed:extended": "node scripts/seed-extended-insects.mjs",
+    "verify:museum": "node scripts/verify-museum.mjs",
+    "verify:images": "node scripts/verify-image-bytes.mjs",
+    "verify:attribution": "node scripts/verify-attribution.mjs",
+    "verify:noop": "node scripts/build-noop-check.mjs",
+    "verify:crops": "node scripts/diagnose-crops.mjs",
+    "source:crops": "node scripts/source-crop-photos.mjs --write",
+    "host:crops": "node scripts/host-crop-photos.mjs",
+    "apply:crops": "node scripts/apply-crop-photos.mjs",
+    "verify:crops:images": "node scripts/verify-crop-images.mjs",
+    "images:upgrade": "node scripts/upgrade-specimen-resolution.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@tanstack/react-query": "^5.103.2",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.48.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "^7.18.4",
+    "tailwindcss": "^4.3.3",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.22",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vercel/node": "^15.0.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}
