@@ -2,8 +2,9 @@ import { useEffect, useRef } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { ArrowRight } from 'lucide-react'
-import { Sprout, Leaf } from 'lucide-react'
+import { Leaf } from 'lucide-react'
 import { Badge } from '@/components/ui/Badge'
+import { CropImage } from '@/components/crops/CropImage'
 import { Spinner } from '@/components/ui/Spinner'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { fetchCropsWithPests } from '@/services/knowledge'
@@ -72,18 +73,7 @@ export function CropsPage() {
                   to={`/crops/${crop.id}`}
                   className="group flex h-full min-h-60 flex-col justify-between rounded-xl border border-forest-100 bg-cream-50 p-6 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift"
                 >
-                  {crop.image_url ? (
-                    <img
-                      src={crop.image_url}
-                      alt={crop.name}
-                      loading="lazy"
-                      className="mb-4 h-36 w-full rounded-lg object-cover"
-                    />
-                  ) : (
-                    <div className="mb-4 flex h-36 w-full items-center justify-center rounded-lg bg-cream-100">
-                      <Sprout className="h-8 w-8 text-forest-300" aria-hidden="true" />
-                    </div>
-                  )}
+                  <CropImage src={crop.image_url} alt={crop.name} variant="card" />
 
                   <div className="flex items-start justify-between">
                     <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-leaf-700">

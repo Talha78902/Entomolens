@@ -26,6 +26,9 @@ const ROOT = `${URL_BASE}/storage/v1/object/public`
 
 const manifest = JSON.parse(fs.readFileSync('src/data/crop-photos.json', 'utf8'))
 
+/** Must match PUBLIC_BUCKETS in src/lib/supabase/client.ts. */
+const PUBLIC_BUCKETS = new Set(['insect-images'])
+
 function jpegSize(b) {
   let i = 2
   while (i < b.length - 9) {
@@ -69,6 +72,20 @@ for (const crop of crops) {
     failures += 1
     continue
   }
+  // A stored value is only safe to hand straight to an img src if it is absolute.
+  // Anything else must be resolved via useImageUrl first; using the raw value as
+  // the src makes the browser request it from the app origin and 404, which looks
+  // like a missing photo rather than a code bug. Catch that here.
+  if (!crop.image_url.startsWith('http')) {
+    const bucket = crop.image_url.split('/')[0]
+    if (!PUBLIC_BUCKETS.has(bucket)) {
+      console.log(`FAIL ${crop.name.padEnd(11)} not bucket-qualified: ${crop.image_url}`)
+      failures += 1
+    } else {
+      console.log(`note ${crop.name.padEnd(11)} stored as ref, needs useImageUrl: ${crop.image_url}`)
+    }
+  }
+
   const url = crop.image_url.startsWith('http') ? crop.image_url : `${ROOT}/${crop.image_url}`
   const res = await fetch(url)
   const buf = Buffer.from(await res.arrayBuffer())

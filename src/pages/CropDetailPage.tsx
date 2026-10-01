@@ -1,7 +1,8 @@
 import { Link, useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
-import { Bug, ChevronRight, Leaf, Sprout } from 'lucide-react'
+import { Bug, ChevronRight, Leaf } from 'lucide-react'
 import { Badge } from '@/components/ui/Badge'
+import { CropImage } from '@/components/crops/CropImage'
 import { Card, CardContent } from '@/components/ui/Card'
 import { Spinner } from '@/components/ui/Spinner'
 import { EmptyState } from '@/components/ui/EmptyState'
@@ -92,17 +93,7 @@ export function CropDetailPage() {
       <Card>
         <CardContent className="p-6">
           <div className="flex items-start gap-4">
-            {crop.image_url ? (
-              <img
-                src={crop.image_url}
-                alt={crop.name}
-                className="h-20 w-20 shrink-0 rounded-xl object-cover"
-              />
-            ) : (
-              <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-xl bg-cream-100">
-                <Sprout className="h-8 w-8 text-leaf-600" aria-hidden="true" />
-              </div>
-            )}
+            <CropImage src={crop.image_url} alt={crop.name} variant="thumb" />
             <div>
               <h1 className="font-serif text-3xl font-semibold text-forest-900">{crop.name}</h1>
               {crop.scientific_name && (
