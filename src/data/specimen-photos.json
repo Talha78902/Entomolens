@@ -1,0 +1,411 @@
+{
+  "generatedFrom": "iNaturalist API",
+  "replaces": "supabase/migrations/00011_add_insect_images_and_orders.sql (Wikimedia Commons)",
+  "licences": [
+    "cc0",
+    "cc-by"
+  ],
+  "specimens": [
+    {
+      "id": "40000000-0000-0000-0000-000000000001",
+      "common_name": "Silverleaf whitefly",
+      "scientific_name": "Bemisia tabaci",
+      "alternates": [
+        "Bemisia tabaci",
+        "Bemisia"
+      ],
+      "taxonId": 199414,
+      "matched": "Bemisia tabaci",
+      "exact": true,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96034893/large.jpeg",
+      "license": "cc-by",
+      "attribution": "(c) Mihajlo Tomić, some rights reserved (CC BY)",
+      "observationUrl": "https://www.inaturalist.org/observations/60075120",
+      "observationId": 60075120,
+      "photoId": 96034893,
+      "votes": 1,
+      "quality": "research"
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000002",
+      "common_name": "Cotton aphid",
+      "scientific_name": "Aphis gossypii",
+      "alternates": [
+        "Aphis gossypii",
+        "Aphis"
+      ],
+      "taxonId": 309466,
+      "matched": "Aphis gossypii",
+      "exact": true,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19781968/large.jpg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/13473158",
+      "observationId": 13473158,
+      "photoId": 19781968,
+      "votes": 6,
+      "quality": "research"
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000003",
+      "common_name": "Cotton mealybug",
+      "scientific_name": "Phenacoccus solenopsis",
+      "alternates": [
+        "Phenacoccus solenopsis",
+        "Phenacoccus"
+      ],
+      "taxonId": 330250,
+      "matched": "Phenacoccus solenopsis",
+      "exact": true,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167204578/large.jpg",
+      "license": "cc-by",
+      "attribution": "(c) Jared Shorma, some rights reserved (CC BY)",
+      "observationUrl": "https://www.inaturalist.org/observations/100201430",
+      "observationId": 100201430,
+      "photoId": 167204578,
+      "votes": 0,
+      "quality": "research"
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000004",
+      "common_name": "Red cotton stainer",
+      "scientific_name": "Dysdercus koenigii",
+      "alternates": [
+        "Dysdercus koenigii",
+        "Dysdercus"
+      ],
+      "taxonId": 416652,
+      "matched": "Dysdercus koenigii",
+      "exact": true,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61947126/large.jpg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/39042258",
+      "observationId": 39042258,
+      "photoId": 61947126,
+      "votes": 0,
+      "quality": "research"
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000005",
+      "common_name": "Cotton jassid",
+      "scientific_name": "Amrasca biguttula",
+      "alternates": [
+        "Amrasca biguttula",
+        "Amrasca"
+      ],
+      "taxonId": 737379,
+      "matched": "Amrasca biguttula",
+      "exact": true,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29270993/large.jpg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/13938970",
+      "observationId": 13938970,
+      "photoId": 29270993,
+      "votes": 2,
+      "quality": "research"
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000006",
+      "common_name": "Old World bollworm",
+      "scientific_name": "Helicoverpa armigera",
+      "alternates": [
+        "Helicoverpa armigera",
+        "Helicoverpa"
+      ],
+      "taxonId": 83806,
+      "matched": "Helicoverpa armigera",
+      "exact": true,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5077699/large.jpeg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "http://www.inaturalist.org/observations/4247368",
+      "observationId": 4247368,
+      "photoId": 5077699,
+      "votes": 1,
+      "quality": "research"
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000007",
+      "common_name": "Fall armyworm",
+      "scientific_name": "Spodoptera frugiperda",
+      "alternates": [
+        "Spodoptera frugiperda",
+        "Spodoptera"
+      ],
+      "taxonId": 132468,
+      "matched": "Spodoptera frugiperda",
+      "exact": true,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229997532/large.jpeg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/134892035",
+      "observationId": 134892035,
+      "photoId": 229997532,
+      "votes": 1,
+      "quality": "research"
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000008",
+      "common_name": "Tobacco caterpillar",
+      "scientific_name": "Spodoptera litura",
+      "alternates": [
+        "Spodoptera litura",
+        "Spodoptera"
+      ],
+      "taxonId": 118931,
+      "matched": "Spodoptera",
+      "exact": false,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/501506234/large.jpg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/279287138",
+      "observationId": 279287138,
+      "photoId": 501506234,
+      "votes": 1,
+      "quality": "research"
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000009",
+      "common_name": "Black cutworm",
+      "scientific_name": "Agrotis ipsilon",
+      "alternates": [
+        "Agrotis ipsilon",
+        "Agrotis segetum",
+        "Agrotis"
+      ],
+      "taxonId": 126276,
+      "matched": "Agrotis ipsilon",
+      "exact": true,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579513310/large.jpg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/320523636",
+      "observationId": 320523636,
+      "photoId": 579513310,
+      "votes": 1,
+      "quality": "research"
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000011",
+      "common_name": "Brinjal shoot and fruit borer",
+      "scientific_name": "Leucinodes orbonalis",
+      "alternates": [
+        "Leucinodes orbonalis",
+        "Leucinodes"
+      ],
+      "taxonId": 124869,
+      "matched": "Leucinodes orbonalis",
+      "exact": true,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146568785/large.jpeg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/88802886",
+      "observationId": 88802886,
+      "photoId": 146568785,
+      "votes": 0,
+      "quality": "research"
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000012",
+      "common_name": "Cotton boll weevil",
+      "scientific_name": "Anthonomus grandis",
+      "alternates": [
+        "Anthonomus grandis",
+        "Anthonomus"
+      ],
+      "taxonId": 199328,
+      "matched": "Anthonomus grandis",
+      "exact": true,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/269368905/large.jpeg",
+      "license": "cc-by",
+      "attribution": "(c) Jean Martins, some rights reserved (CC BY)",
+      "observationUrl": "https://www.inaturalist.org/observations/155811330",
+      "observationId": 155811330,
+      "photoId": 269368905,
+      "votes": 0,
+      "quality": "research"
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000013",
+      "common_name": "Seven-spot ladybird",
+      "scientific_name": "Coccinella septempunctata",
+      "alternates": [
+        "Coccinella septempunctata",
+        "Coccinella"
+      ],
+      "taxonId": 51702,
+      "matched": "Coccinella septempunctata",
+      "exact": true,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/201606151/large.jpeg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/119275139",
+      "observationId": 119275139,
+      "photoId": 201606151,
+      "votes": 1,
+      "quality": "research"
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000014",
+      "common_name": "Pulse beetle",
+      "scientific_name": "Callosobruchus chinensis",
+      "alternates": [
+        "Callosobruchus chinensis",
+        "Callosobruchus"
+      ],
+      "taxonId": 455499,
+      "matched": "Callosobruchus chinensis",
+      "exact": true,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182839575/large.jpg",
+      "license": "cc-by",
+      "attribution": "(c) Seema Merchant, some rights reserved (CC BY)",
+      "observationUrl": "https://www.inaturalist.org/observations/108578794",
+      "observationId": 108578794,
+      "photoId": 182839575,
+      "votes": 0,
+      "quality": "research"
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000017",
+      "common_name": "Melon fruit fly",
+      "scientific_name": "Bactrocera cucurbitae",
+      "alternates": [
+        "Bactrocera cucurbitae",
+        "Bactrocera"
+      ],
+      "taxonId": 244067,
+      "matched": "Bactrocera",
+      "exact": false,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/301712339/large.jpg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/173718137",
+      "observationId": 173718137,
+      "photoId": 301712339,
+      "votes": 0,
+      "quality": "research"
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000018",
+      "common_name": "Marmalade hoverfly",
+      "scientific_name": "Episyrphus balteatus",
+      "alternates": [
+        "Episyrphus balteatus",
+        "Episyrphus"
+      ],
+      "taxonId": 52482,
+      "matched": "Episyrphus balteatus",
+      "exact": true,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211980897/large.jpeg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/125029345",
+      "observationId": 125029345,
+      "photoId": 211980897,
+      "votes": 1,
+      "quality": "research"
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000019",
+      "common_name": "Migratory locust",
+      "scientific_name": "Locusta migratoria",
+      "alternates": [
+        "Locusta migratoria",
+        "Locusta"
+      ],
+      "taxonId": 201627,
+      "matched": "Locusta migratoria",
+      "exact": true,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455106232/large.jpeg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/254117695",
+      "observationId": 254117695,
+      "photoId": 455106232,
+      "votes": 1,
+      "quality": "research"
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000021",
+      "common_name": "Western honey bee",
+      "scientific_name": "Apis mellifera",
+      "alternates": [
+        "Apis mellifera",
+        "Apis"
+      ],
+      "taxonId": 47219,
+      "matched": "Apis mellifera",
+      "exact": true,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217394043/large.jpeg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/128011193",
+      "observationId": 128011193,
+      "photoId": 217394043,
+      "votes": 7,
+      "quality": "research"
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000022",
+      "common_name": "Minute pirate bug",
+      "scientific_name": "Orius laevigatus",
+      "alternates": [
+        "Orius laevigatus",
+        "Orius"
+      ],
+      "taxonId": 748474,
+      "matched": "Orius laevigatus",
+      "exact": true,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110858073/large.jpg",
+      "license": "cc-by",
+      "attribution": "(c) Paul Cook, some rights reserved (CC BY)",
+      "observationUrl": "https://www.inaturalist.org/observations/68461057",
+      "observationId": 68461057,
+      "photoId": 110858073,
+      "votes": 0,
+      "quality": "research"
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000023",
+      "common_name": "Brown planthopper",
+      "scientific_name": "Nilaparvata lugens",
+      "alternates": [
+        "Nilaparvata lugens",
+        "Nilaparvata"
+      ],
+      "taxonId": 205266,
+      "matched": "Nilaparvata lugens",
+      "exact": true,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/417568380/large.jpeg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/234845667",
+      "observationId": 234845667,
+      "photoId": 417568380,
+      "votes": 0,
+      "quality": "research"
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000024",
+      "common_name": "Common green lacewing",
+      "scientific_name": "Chrysoperla carnea",
+      "alternates": [
+        "Chrysoperla carnea",
+        "Chrysoperla"
+      ],
+      "taxonId": 311581,
+      "matched": "Chrysoperla carnea",
+      "exact": true,
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/536231091/large.jpg",
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "observationUrl": "https://www.inaturalist.org/observations/297736802",
+      "observationId": 297736802,
+      "photoId": 536231091,
+      "votes": 0,
+      "quality": "research"
+    }
+  ]
+}

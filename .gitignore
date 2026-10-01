@@ -16,3 +16,6 @@ vite-dev.log
 
 # Cached downloads for scripts/host-specimen-images.mjs
 .cache
+
+.vercel
+.env*
