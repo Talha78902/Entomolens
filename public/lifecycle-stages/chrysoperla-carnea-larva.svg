@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Common green lacewing larva">
+<title>Common green lacewing larva</title>
+<rect width="400" height="300" fill="#f3ede1"/>
+<circle cx="200" cy="140" r="112" fill="#eaf2e2"/>
+<g><path d="M40 232 Q200 214 360 232 Q200 252 40 232Z" fill="#cfe0c2" stroke="#9fbb8e" stroke-width="1.5"></path></g><g stroke="#3a3428" stroke-width="2" stroke-linejoin="round"><ellipse cx="240" cy="152" rx="62" ry="21" fill="#c9a06a"></ellipse><ellipse cx="166" cy="148" rx="30" ry="24" fill="#b98f5c"></ellipse><path d="M176 168 l-9 14 M176 168 l9 14" fill="none" stroke-width="2"></path><path d="M202 168 l-9 14 M202 168 l9 14" fill="none" stroke-width="2"></path><path d="M228 168 l-9 14 M228 168 l9 14" fill="none" stroke-width="2"></path><path d="M254 168 l-9 14 M254 168 l9 14" fill="none" stroke-width="2"></path><rect x="130" y="140" width="16" height="15" rx="6" fill="#a87d4d"></rect><path d="M126 146 Q96 140 78 122 q12 4 20 2 q-8 -8 -6 -18 q10 8 18 20Z" fill="#6f5334"></path><path d="M210 134 l6 -12 l6 12 M248 132 l6 -12 l6 12" fill="#a87d4d"></path><circle cx="146" cy="146" r="3" fill="#3a3428" stroke="none"></circle></g>
+<g><rect x="16" y="262" width="195" height="24" rx="12" fill="#3a3428" opacity="0.9"/>
+<text x="114" y="278" font-family="Georgia, serif" font-size="12" fill="#f6f1e6" text-anchor="middle">Common green lacewing larva</text></g>
+</svg>

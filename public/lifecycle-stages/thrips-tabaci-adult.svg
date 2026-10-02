@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Onion thrips adult">
+<title>Onion thrips adult</title>
+<rect width="400" height="300" fill="#f3ede1"/>
+<circle cx="200" cy="140" r="112" fill="#e9f0e4"/>
+<g><path d="M40 232 Q200 214 360 232 Q200 252 40 232Z" fill="#cfe0c2" stroke="#9fbb8e" stroke-width="1.5"></path></g><g stroke="#3a3428" stroke-width="2" stroke-linejoin="round"><path d="M198 140 Q160 152 138 196 Q176 186 198 168Z" fill="#e6dcc2"></path><path d="M202 140 Q240 152 262 196 Q224 186 202 168Z" fill="#e6dcc2"></path><path d="M198 152 L142 190 M198 158 L146 196 M202 152 L258 190 M202 158 L254 196" fill="none" stroke-width="0.9"></path><ellipse cx="200" cy="150" rx="14" ry="40" fill="#d8c38a"></ellipse><circle cx="200" cy="112" r="9" fill="#c9b273"></circle><path d="M193 106 q-12 -14 -22 -20 M207 106 q12 -14 22 -20" fill="none" stroke-width="1.5"></path><path d="M190 186 l-8 14 M210 186 l8 14" fill="none" stroke-width="2"></path></g>
+<g><rect x="16" y="262" width="137" height="24" rx="12" fill="#3a3428" opacity="0.9"/>
+<text x="85" y="278" font-family="Georgia, serif" font-size="12" fill="#f6f1e6" text-anchor="middle">Onion thrips adult</text></g>
+</svg>

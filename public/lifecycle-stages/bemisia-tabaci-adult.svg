@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Silverleaf whitefly adult">
+<title>Silverleaf whitefly adult</title>
+<rect width="400" height="300" fill="#f3ede1"/>
+<circle cx="200" cy="140" r="112" fill="#e9f0e4"/>
+<g><path d="M40 232 Q200 214 360 232 Q200 252 40 232Z" fill="#cfe0c2" stroke="#9fbb8e" stroke-width="1.5"></path></g><g stroke="#3a3428" stroke-width="2" stroke-linejoin="round"><path d="M198 148 Q158 116 106 128 Q140 176 198 186Z" fill="#f4f6f2"></path><path d="M202 148 Q242 116 294 128 Q260 176 202 186Z" fill="#f4f6f2"></path><path d="M198 152 Q168 136 134 140 M202 152 Q232 136 266 140" fill="none" stroke-width="1.1"></path><ellipse cx="200" cy="172" rx="8" ry="30" fill="#e9d8b4"></ellipse><circle cx="200" cy="140" r="11" fill="#d8c9a4"></circle><circle cx="196" cy="138" r="2.8" fill="#3a3428" stroke="none"></circle><circle cx="204" cy="138" r="2.8" fill="#3a3428" stroke="none"></circle></g>
+<g><rect x="16" y="262" width="182" height="24" rx="12" fill="#3a3428" opacity="0.9"/>
+<text x="107" y="278" font-family="Georgia, serif" font-size="12" fill="#f6f1e6" text-anchor="middle">Silverleaf whitefly adult</text></g>
+</svg>

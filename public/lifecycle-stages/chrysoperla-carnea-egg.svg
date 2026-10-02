@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Common green lacewing egg">
+<title>Common green lacewing egg</title>
+<rect width="400" height="300" fill="#f3ede1"/>
+<circle cx="200" cy="140" r="112" fill="#f3f0e4"/>
+<g><path d="M40 232 Q200 214 360 232 Q200 252 40 232Z" fill="#cfe0c2" stroke="#9fbb8e" stroke-width="1.5"></path></g><g stroke="#3a3428" stroke-width="2"><path d="M154 224 q-15 -20 -24 -34" fill="none" stroke-width="1.6"></path><ellipse cx="130" cy="184" rx="5" ry="9" fill="#f0e6cd"></ellipse><path d="M173 224 q-10 -20 -16 -34" fill="none" stroke-width="1.6"></path><ellipse cx="157" cy="184" rx="5" ry="9" fill="#f0e6cd"></ellipse><path d="M192 224 q-5 -20 -8 -34" fill="none" stroke-width="1.6"></path><ellipse cx="184" cy="184" rx="5" ry="9" fill="#f0e6cd"></ellipse><path d="M211 224 q0 -20 0 -34" fill="none" stroke-width="1.6"></path><ellipse cx="211" cy="184" rx="5" ry="9" fill="#f0e6cd"></ellipse><path d="M230 224 q5 -20 8 -34" fill="none" stroke-width="1.6"></path><ellipse cx="238" cy="184" rx="5" ry="9" fill="#f0e6cd"></ellipse><path d="M249 224 q10 -20 16 -34" fill="none" stroke-width="1.6"></path><ellipse cx="265" cy="184" rx="5" ry="9" fill="#f0e6cd"></ellipse></g>
+<g><rect x="16" y="262" width="182" height="24" rx="12" fill="#3a3428" opacity="0.9"/>
+<text x="107" y="278" font-family="Georgia, serif" font-size="12" fill="#f6f1e6" text-anchor="middle">Common green lacewing egg</text></g>
+</svg>

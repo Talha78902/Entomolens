@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Brown planthopper adult">
+<title>Brown planthopper adult</title>
+<rect width="400" height="300" fill="#f3ede1"/>
+<circle cx="200" cy="140" r="112" fill="#e9f0e4"/>
+<g><rect x="192" y="206" width="16" height="52" rx="7" fill="#b9c7a8"></rect></g><g stroke="#3a3428" stroke-width="2" stroke-linejoin="round"><path d="M200 96 q14 4 16 26 l-4 84 q-12 6 -24 0 l-4 -84 q2 -22 16 -26Z" fill="#c9a15c"></path><path d="M198 108 Q168 128 158 190 Q186 182 198 160Z" fill="#e0c48d"></path><path d="M202 108 Q232 128 242 190 Q214 182 202 160Z" fill="#e0c48d"></path><path d="M200 118 l0 62 M190 130 l-8 48 M210 130 l8 48" fill="none" stroke-width="1.1"></path><path d="M168 168 l-12 16 l20 -4" fill="none" stroke-width="2.4"></path><path d="M184 168 l-12 16 l26 -4" fill="none" stroke-width="2.4"></path><path d="M200 168 l-12 16 l32 -4" fill="none" stroke-width="2.4"></path><ellipse cx="200" cy="92" rx="13" ry="10" fill="#b08a4a"></ellipse><circle cx="195" cy="90" r="2.6" fill="#3a3428" stroke="none"></circle><circle cx="205" cy="90" r="2.6" fill="#3a3428" stroke="none"></circle></g>
+<g><rect x="16" y="262" width="169" height="24" rx="12" fill="#3a3428" opacity="0.9"/>
+<text x="101" y="278" font-family="Georgia, serif" font-size="12" fill="#f6f1e6" text-anchor="middle">Brown planthopper adult</text></g>
+</svg>

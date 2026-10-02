@@ -7,6 +7,7 @@ import { Card } from '@/components/ui/Card'
 import { Spinner } from '@/components/ui/Spinner'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { fetchLifeCycleStages } from '@/services/knowledge'
+import { LifeStageImage } from '@/components/lifecycle/LifeStageImage'
 import { isSupabaseConfigured } from '@/lib/supabase/client'
 import { cn } from '@/lib/utils/cn'
 
@@ -19,6 +20,7 @@ interface LifeStageRow {
   feeding_behavior?: string | null
   damage_description?: string | null
   identification_characteristics?: string | null
+  image_url?: string | null
   insects?: {
     id: string
     common_name: string
@@ -33,7 +35,7 @@ interface GroupedInsect {
   stages: LifeStageRow[]
 }
 
-function StageTimeline({ stages }: { stages: LifeStageRow[] }) {
+function StageTimeline({ stages, speciesName }: { stages: LifeStageRow[]; speciesName: string }) {
   const [selectedId, setSelectedId] = useState<string>(stages[0]?.id ?? '')
   const selected = stages.find((stage) => stage.id === selectedId) ?? stages[0]
 
@@ -67,6 +69,11 @@ function StageTimeline({ stages }: { stages: LifeStageRow[] }) {
                 >
                   {stage.stage_name}
                 </span>
+                <LifeStageImage
+                  src={stage.image_url}
+                  alt={`${speciesName} ${stage.stage_name} stage`}
+                  variant="chip"
+                />
               </button>
               {index < stages.length - 1 && (
                 <span className="h-px w-8 bg-forest-200" aria-hidden="true" />
@@ -88,24 +95,41 @@ function StageTimeline({ stages }: { stages: LifeStageRow[] }) {
               </Badge>
             )}
           </div>
-          {selected.appearance && (
-            <p className="mt-2 text-sm text-ink-500">
-              <span className="font-medium text-ink-600">Appearance: </span>
-              {selected.appearance}
-            </p>
-          )}
-          {selected.feeding_behavior && (
-            <p className="mt-1 text-sm text-ink-500">
-              <span className="font-medium text-ink-600">Feeding: </span>
-              {selected.feeding_behavior}
-            </p>
-          )}
-          {selected.damage_description && (
-            <p className="mt-1 text-sm text-ink-500">
-              <span className="font-medium text-red-700">Damage: </span>
-              {selected.damage_description}
-            </p>
-          )}
+          <div className="mt-4 flex flex-col gap-5 sm:flex-row">
+            <div className="sm:w-64">
+              <LifeStageImage
+                src={selected.image_url}
+                alt={`Illustration of ${speciesName} at the ${selected.stage_name} stage`}
+                variant="panel"
+              />
+            </div>
+            <div className="min-w-0 flex-1">
+              {selected.appearance && (
+                <p className="text-sm text-ink-500">
+                  <span className="font-medium text-ink-600">Appearance: </span>
+                  {selected.appearance}
+                </p>
+              )}
+              {selected.feeding_behavior && (
+                <p className="mt-1 text-sm text-ink-500">
+                  <span className="font-medium text-ink-600">Feeding: </span>
+                  {selected.feeding_behavior}
+                </p>
+              )}
+              {selected.damage_description && (
+                <p className="mt-1 text-sm text-ink-500">
+                  <span className="font-medium text-red-700">Damage: </span>
+                  {selected.damage_description}
+                </p>
+              )}
+              {selected.identification_characteristics && (
+                <p className="mt-1 text-sm text-ink-500">
+                  <span className="font-medium text-ink-600">Identify by: </span>
+                  {selected.identification_characteristics}
+                </p>
+              )}
+            </div>
+          </div>
         </div>
       )}
     </div>
@@ -228,7 +252,7 @@ export function LifeCycleExplorerPage() {
 
                 {open && (
                   <div className="border-t border-forest-100 bg-cream-50/40 p-5">
-                    <StageTimeline stages={group.stages} />
+                    <StageTimeline stages={group.stages} speciesName={group.insect.common_name} />
                     <Link
                       to={`/museum/${group.insect.id}`}
                       className="mt-5 inline-flex items-center gap-1.5 text-sm font-medium text-forest-700 hover:text-forest-900"

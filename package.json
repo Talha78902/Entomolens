@@ -27,7 +27,10 @@
     "host:crops": "node scripts/host-crop-photos.mjs",
     "apply:crops": "node scripts/apply-crop-photos.mjs",
     "verify:crops:images": "node scripts/verify-crop-images.mjs",
-    "images:upgrade": "node scripts/upgrade-specimen-resolution.mjs"
+    "images:upgrade": "node scripts/upgrade-specimen-resolution.mjs",
+    "illustrate:life-cycles": "node scripts/generate-lifecycle-illustrations.mjs",
+    "verify:life-cycle-art": "node scripts/verify-lifecycle-illustrations.mjs && python scripts/check-svg-xml.py",
+    "apply:life-cycle-art": "node scripts/apply-lifecycle-illustrations.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.1",

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Cotton aphid adult">
+<title>Cotton aphid adult</title>
+<rect width="400" height="300" fill="#f3ede1"/>
+<circle cx="200" cy="140" r="112" fill="#e9f0e4"/>
+<g><rect x="192" y="206" width="16" height="52" rx="7" fill="#b9c7a8"></rect></g><g stroke="#3a3428" stroke-width="2" stroke-linejoin="round"><path d="M188 132 Q146 118 122 146 Q152 162 188 158Z" fill="#dfe7ef" opacity="0.9"></path><path d="M212 132 Q254 118 278 146 Q248 162 212 158Z" fill="#dfe7ef" opacity="0.9"></path><ellipse cx="200" cy="152" rx="42" ry="31" fill="#9dbf6a"></ellipse><ellipse cx="192" cy="144" rx="22" ry="16" fill="#b3d186"></ellipse><path d="M234 146 l16 -6 M234 156 l16 6" fill="none" stroke-width="2.6"></path><path d="M182 180 l-10 16 M206 182 l-4 17 M228 178 l10 15" fill="none" stroke-width="2"></path><path d="M180 124 q-14 -16 -22 -28 M220 124 q14 -16 22 -28" fill="none" stroke-width="1.6"></path><circle cx="200" cy="130" r="9" fill="#8ab257"></circle></g>
+<g><rect x="16" y="262" width="137" height="24" rx="12" fill="#3a3428" opacity="0.9"/>
+<text x="85" y="278" font-family="Georgia, serif" font-size="12" fill="#f6f1e6" text-anchor="middle">Cotton aphid adult</text></g>
+</svg>

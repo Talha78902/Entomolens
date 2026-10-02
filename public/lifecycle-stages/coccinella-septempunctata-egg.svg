@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Seven-spot ladybird egg">
+<title>Seven-spot ladybird egg</title>
+<rect width="400" height="300" fill="#f3ede1"/>
+<circle cx="200" cy="140" r="112" fill="#f3f0e4"/>
+<g><path d="M40 232 Q200 214 360 232 Q200 252 40 232Z" fill="#cfe0c2" stroke="#9fbb8e" stroke-width="1.5"></path></g><g stroke="#3a3428" stroke-width="2"><ellipse cx="158" cy="226" rx="7" ry="14" fill="#f5d97a"></ellipse><ellipse cx="179" cy="226" rx="7" ry="14" fill="#f5d97a"></ellipse><ellipse cx="200" cy="226" rx="7" ry="14" fill="#f5d97a"></ellipse><ellipse cx="221" cy="226" rx="7" ry="14" fill="#f5d97a"></ellipse><ellipse cx="242" cy="226" rx="7" ry="14" fill="#f5d97a"></ellipse><ellipse cx="158" cy="211" rx="7" ry="14" fill="#f5d97a"></ellipse><ellipse cx="179" cy="211" rx="7" ry="14" fill="#f5d97a"></ellipse><ellipse cx="200" cy="211" rx="7" ry="14" fill="#f5d97a"></ellipse><ellipse cx="221" cy="211" rx="7" ry="14" fill="#f5d97a"></ellipse></g>
+<g><rect x="16" y="262" width="169" height="24" rx="12" fill="#3a3428" opacity="0.9"/>
+<text x="101" y="278" font-family="Georgia, serif" font-size="12" fill="#f6f1e6" text-anchor="middle">Seven-spot ladybird egg</text></g>
+</svg>

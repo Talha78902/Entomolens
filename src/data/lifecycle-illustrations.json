@@ -1,0 +1,290 @@
+[
+  {
+    "scientific_name": "Bemisia tabaci",
+    "common_name": "Silverleaf whitefly",
+    "stage": "egg",
+    "file": "bemisia-tabaci-egg.svg",
+    "image_url": "/lifecycle-stages/bemisia-tabaci-egg.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Bemisia tabaci",
+    "common_name": "Silverleaf whitefly",
+    "stage": "nymph",
+    "file": "bemisia-tabaci-nymph.svg",
+    "image_url": "/lifecycle-stages/bemisia-tabaci-nymph.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Bemisia tabaci",
+    "common_name": "Silverleaf whitefly",
+    "stage": "pupa",
+    "file": "bemisia-tabaci-pupa.svg",
+    "image_url": "/lifecycle-stages/bemisia-tabaci-pupa.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Bemisia tabaci",
+    "common_name": "Silverleaf whitefly",
+    "stage": "adult",
+    "file": "bemisia-tabaci-adult.svg",
+    "image_url": "/lifecycle-stages/bemisia-tabaci-adult.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Aphis gossypii",
+    "common_name": "Cotton aphid",
+    "stage": "nymph",
+    "file": "aphis-gossypii-nymph.svg",
+    "image_url": "/lifecycle-stages/aphis-gossypii-nymph.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Aphis gossypii",
+    "common_name": "Cotton aphid",
+    "stage": "adult",
+    "file": "aphis-gossypii-adult.svg",
+    "image_url": "/lifecycle-stages/aphis-gossypii-adult.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Helicoverpa armigera",
+    "common_name": "Old World bollworm",
+    "stage": "egg",
+    "file": "helicoverpa-armigera-egg.svg",
+    "image_url": "/lifecycle-stages/helicoverpa-armigera-egg.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Helicoverpa armigera",
+    "common_name": "Old World bollworm",
+    "stage": "larva",
+    "file": "helicoverpa-armigera-larva.svg",
+    "image_url": "/lifecycle-stages/helicoverpa-armigera-larva.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Helicoverpa armigera",
+    "common_name": "Old World bollworm",
+    "stage": "pupa",
+    "file": "helicoverpa-armigera-pupa.svg",
+    "image_url": "/lifecycle-stages/helicoverpa-armigera-pupa.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Helicoverpa armigera",
+    "common_name": "Old World bollworm",
+    "stage": "adult",
+    "file": "helicoverpa-armigera-adult.svg",
+    "image_url": "/lifecycle-stages/helicoverpa-armigera-adult.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Spodoptera frugiperda",
+    "common_name": "Fall armyworm",
+    "stage": "egg",
+    "file": "spodoptera-frugiperda-egg.svg",
+    "image_url": "/lifecycle-stages/spodoptera-frugiperda-egg.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Spodoptera frugiperda",
+    "common_name": "Fall armyworm",
+    "stage": "larva",
+    "file": "spodoptera-frugiperda-larva.svg",
+    "image_url": "/lifecycle-stages/spodoptera-frugiperda-larva.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Spodoptera frugiperda",
+    "common_name": "Fall armyworm",
+    "stage": "pupa",
+    "file": "spodoptera-frugiperda-pupa.svg",
+    "image_url": "/lifecycle-stages/spodoptera-frugiperda-pupa.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Spodoptera frugiperda",
+    "common_name": "Fall armyworm",
+    "stage": "adult",
+    "file": "spodoptera-frugiperda-adult.svg",
+    "image_url": "/lifecycle-stages/spodoptera-frugiperda-adult.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Pectinophora gossypiella",
+    "common_name": "Pink bollworm",
+    "stage": "egg",
+    "file": "pectinophora-gossypiella-egg.svg",
+    "image_url": "/lifecycle-stages/pectinophora-gossypiella-egg.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Pectinophora gossypiella",
+    "common_name": "Pink bollworm",
+    "stage": "larva",
+    "file": "pectinophora-gossypiella-larva.svg",
+    "image_url": "/lifecycle-stages/pectinophora-gossypiella-larva.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Pectinophora gossypiella",
+    "common_name": "Pink bollworm",
+    "stage": "pupa",
+    "file": "pectinophora-gossypiella-pupa.svg",
+    "image_url": "/lifecycle-stages/pectinophora-gossypiella-pupa.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Pectinophora gossypiella",
+    "common_name": "Pink bollworm",
+    "stage": "adult",
+    "file": "pectinophora-gossypiella-adult.svg",
+    "image_url": "/lifecycle-stages/pectinophora-gossypiella-adult.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Leucinodes orbonalis",
+    "common_name": "Brinjal shoot and fruit borer",
+    "stage": "egg",
+    "file": "leucinodes-orbonalis-egg.svg",
+    "image_url": "/lifecycle-stages/leucinodes-orbonalis-egg.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Leucinodes orbonalis",
+    "common_name": "Brinjal shoot and fruit borer",
+    "stage": "larva",
+    "file": "leucinodes-orbonalis-larva.svg",
+    "image_url": "/lifecycle-stages/leucinodes-orbonalis-larva.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Leucinodes orbonalis",
+    "common_name": "Brinjal shoot and fruit borer",
+    "stage": "pupa",
+    "file": "leucinodes-orbonalis-pupa.svg",
+    "image_url": "/lifecycle-stages/leucinodes-orbonalis-pupa.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Leucinodes orbonalis",
+    "common_name": "Brinjal shoot and fruit borer",
+    "stage": "adult",
+    "file": "leucinodes-orbonalis-adult.svg",
+    "image_url": "/lifecycle-stages/leucinodes-orbonalis-adult.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Coccinella septempunctata",
+    "common_name": "Seven-spot ladybird",
+    "stage": "egg",
+    "file": "coccinella-septempunctata-egg.svg",
+    "image_url": "/lifecycle-stages/coccinella-septempunctata-egg.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Coccinella septempunctata",
+    "common_name": "Seven-spot ladybird",
+    "stage": "larva",
+    "file": "coccinella-septempunctata-larva.svg",
+    "image_url": "/lifecycle-stages/coccinella-septempunctata-larva.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Coccinella septempunctata",
+    "common_name": "Seven-spot ladybird",
+    "stage": "pupa",
+    "file": "coccinella-septempunctata-pupa.svg",
+    "image_url": "/lifecycle-stages/coccinella-septempunctata-pupa.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Coccinella septempunctata",
+    "common_name": "Seven-spot ladybird",
+    "stage": "adult",
+    "file": "coccinella-septempunctata-adult.svg",
+    "image_url": "/lifecycle-stages/coccinella-septempunctata-adult.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Thrips tabaci",
+    "common_name": "Onion thrips",
+    "stage": "egg",
+    "file": "thrips-tabaci-egg.svg",
+    "image_url": "/lifecycle-stages/thrips-tabaci-egg.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Thrips tabaci",
+    "common_name": "Onion thrips",
+    "stage": "nymph",
+    "file": "thrips-tabaci-nymph.svg",
+    "image_url": "/lifecycle-stages/thrips-tabaci-nymph.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Thrips tabaci",
+    "common_name": "Onion thrips",
+    "stage": "pupa",
+    "file": "thrips-tabaci-pupa.svg",
+    "image_url": "/lifecycle-stages/thrips-tabaci-pupa.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Thrips tabaci",
+    "common_name": "Onion thrips",
+    "stage": "adult",
+    "file": "thrips-tabaci-adult.svg",
+    "image_url": "/lifecycle-stages/thrips-tabaci-adult.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Nilaparvata lugens",
+    "common_name": "Brown planthopper",
+    "stage": "nymph",
+    "file": "nilaparvata-lugens-nymph.svg",
+    "image_url": "/lifecycle-stages/nilaparvata-lugens-nymph.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Nilaparvata lugens",
+    "common_name": "Brown planthopper",
+    "stage": "adult",
+    "file": "nilaparvata-lugens-adult.svg",
+    "image_url": "/lifecycle-stages/nilaparvata-lugens-adult.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Chrysoperla carnea",
+    "common_name": "Common green lacewing",
+    "stage": "egg",
+    "file": "chrysoperla-carnea-egg.svg",
+    "image_url": "/lifecycle-stages/chrysoperla-carnea-egg.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Chrysoperla carnea",
+    "common_name": "Common green lacewing",
+    "stage": "larva",
+    "file": "chrysoperla-carnea-larva.svg",
+    "image_url": "/lifecycle-stages/chrysoperla-carnea-larva.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Chrysoperla carnea",
+    "common_name": "Common green lacewing",
+    "stage": "pupa",
+    "file": "chrysoperla-carnea-pupa.svg",
+    "image_url": "/lifecycle-stages/chrysoperla-carnea-pupa.svg",
+    "licence": "project-original"
+  },
+  {
+    "scientific_name": "Chrysoperla carnea",
+    "common_name": "Common green lacewing",
+    "stage": "adult",
+    "file": "chrysoperla-carnea-adult.svg",
+    "image_url": "/lifecycle-stages/chrysoperla-carnea-adult.svg",
+    "licence": "project-original"
+  }
+]

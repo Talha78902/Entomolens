@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Pink bollworm pupa">
+<title>Pink bollworm pupa</title>
+<rect width="400" height="300" fill="#f3ede1"/>
+<circle cx="200" cy="140" r="112" fill="#f0e9e0"/>
+<g><path d="M40 232 Q200 214 360 232 Q200 252 40 232Z" fill="#cfe0c2" stroke="#9fbb8e" stroke-width="1.5"></path></g><g stroke="#3a3428" stroke-width="2" stroke-linejoin="round"><path d="M186 96 q14 -8 28 0 q10 44 4 100 q-2 16 -18 16 q-16 0 -18 -16 q-6 -56 4 -100Z" fill="#a97f4e"></path><path d="M182 168 h36 M182 186 h36 M183 204 h34" fill="none" stroke-width="1.4"></path><path d="M188 104 q12 26 2 58 M212 104 q-12 26 -2 58" fill="none" stroke-width="1.4"></path><path d="M198 212 q2 12 -4 14 q-6 1 -4 -7Z" fill="#8a663c"></path><circle cx="200" cy="90" r="8" fill="#96713f"></circle></g>
+<g><rect x="16" y="262" width="137" height="24" rx="12" fill="#3a3428" opacity="0.9"/>
+<text x="85" y="278" font-family="Georgia, serif" font-size="12" fill="#f6f1e6" text-anchor="middle">Pink bollworm pupa</text></g>
+</svg>

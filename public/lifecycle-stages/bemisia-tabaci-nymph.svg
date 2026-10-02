@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Silverleaf whitefly nymph">
+<title>Silverleaf whitefly nymph</title>
+<rect width="400" height="300" fill="#f3ede1"/>
+<circle cx="200" cy="140" r="112" fill="#e7f0ef"/>
+<g><path d="M40 232 Q200 214 360 232 Q200 252 40 232Z" fill="#cfe0c2" stroke="#9fbb8e" stroke-width="1.5"></path></g><g stroke="#3a3428" stroke-width="2"><path d="M244 150 L256 150">stroke-width="1.4"</path><path d="M242.9 156.2 L254.6 158">stroke-width="1.4"</path><path d="M239.6 162.1 L250.5 165.6">stroke-width="1.4"</path><path d="M234.4 167.5 L243.8 172.4">stroke-width="1.4"</path><path d="M227.4 171.9 L234.9 178.1">stroke-width="1.4"</path><path d="M219.1 175.2 L224.3 182.4">stroke-width="1.4"</path><path d="M209.8 177.3 L212.5 185.1">stroke-width="1.4"</path><path d="M200 178 L200 186">stroke-width="1.4"</path><path d="M190.2 177.3 L187.5 185.1">stroke-width="1.4"</path><path d="M180.9 175.2 L175.7 182.4">stroke-width="1.4"</path><path d="M172.6 171.9 L165.1 178.1">stroke-width="1.4"</path><path d="M165.6 167.5 L156.2 172.4">stroke-width="1.4"</path><path d="M160.4 162.1 L149.5 165.6">stroke-width="1.4"</path><path d="M157.1 156.2 L145.4 158">stroke-width="1.4"</path><ellipse cx="200" cy="150" rx="44" ry="28" fill="#cdd8c0"></ellipse><ellipse cx="200" cy="150" rx="30" ry="19" fill="#e2e8d8"></ellipse><path d="M178 142 h44 M176 156 h48" fill="none" stroke-width="1.2"></path></g>
+<g><rect x="16" y="262" width="182" height="24" rx="12" fill="#3a3428" opacity="0.9"/>
+<text x="107" y="278" font-family="Georgia, serif" font-size="12" fill="#f6f1e6" text-anchor="middle">Silverleaf whitefly nymph</text></g>
+</svg>
