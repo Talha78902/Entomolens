@@ -3,6 +3,16 @@ import { Leaf } from 'lucide-react'
 
 interface LifeStageImageProps {
   src: string | null | undefined
+  /**
+   * Asset path used when the row has no stored image yet.
+   *
+   * `life_cycles.image_url` stays NULL until migration 00017 is applied, which
+   * needs a service-role key or the Supabase SQL editor. Rather than ship a page
+   * of placeholders while that is pending, the explorer falls back to the
+   * generated manifest, which is the same mapping the migration writes. Once the
+   * migration has run the stored value wins and this becomes redundant.
+   */
+  fallbackSrc?: string | null
   alt: string
   /** `panel` is the large illustration beside the selected stage; `chip` is the timeline thumbnail. */
   variant: 'panel' | 'chip'
@@ -22,10 +32,11 @@ interface LifeStageImageProps {
  * real photograph in the insect-images bucket, so both forms resolve here. The
  * hook cannot be called conditionally, hence the null argument on the direct path.
  */
-export function LifeStageImage({ src, alt, variant }: LifeStageImageProps) {
-  const isDirect = Boolean(src && (src.startsWith('/') || src.startsWith('http')))
-  const bucketUrl = useImageUrl(isDirect ? null : src, 'insect-images')
-  const url = isDirect ? (src as string) : bucketUrl
+export function LifeStageImage({ src, fallbackSrc, alt, variant }: LifeStageImageProps) {
+  const wanted = src ?? fallbackSrc ?? null
+  const isDirect = Boolean(wanted && (wanted.startsWith('/') || wanted.startsWith('http')))
+  const bucketUrl = useImageUrl(isDirect ? null : wanted, 'insect-images')
+  const url = isDirect ? wanted : bucketUrl
 
   if (!url) {
     const box =

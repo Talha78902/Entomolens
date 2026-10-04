@@ -8,8 +8,22 @@ import { Spinner } from '@/components/ui/Spinner'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { fetchLifeCycleStages } from '@/services/knowledge'
 import { LifeStageImage } from '@/components/lifecycle/LifeStageImage'
+import illustrationManifest from '@/data/lifecycle-illustrations.json'
 import { isSupabaseConfigured } from '@/lib/supabase/client'
 import { cn } from '@/lib/utils/cn'
+
+/**
+ * Fallback asset path per species/stage, from the manifest the illustration
+ * generator writes alongside migration 00017.
+ *
+ * The database columns are still NULL until that migration is applied, and
+ * applying it needs a service-role key. Falling back here keeps the page showing
+ * stages instead of placeholders in the meantime, using the identical mapping so
+ * nothing changes visually once the migration lands.
+ */
+const illustrationByKey = new Map<string, string>(
+  illustrationManifest.map((m) => [`${m.scientific_name}::${m.stage}`, m.image_url]),
+)
 
 interface LifeStageRow {
   id: string
@@ -35,7 +49,15 @@ interface GroupedInsect {
   stages: LifeStageRow[]
 }
 
-function StageTimeline({ stages, speciesName }: { stages: LifeStageRow[]; speciesName: string }) {
+function StageTimeline({
+  stages,
+  speciesName,
+  scientificName,
+}: {
+  stages: LifeStageRow[]
+  speciesName: string
+  scientificName: string
+}) {
   const [selectedId, setSelectedId] = useState<string>(stages[0]?.id ?? '')
   const selected = stages.find((stage) => stage.id === selectedId) ?? stages[0]
 
@@ -71,6 +93,7 @@ function StageTimeline({ stages, speciesName }: { stages: LifeStageRow[]; specie
                 </span>
                 <LifeStageImage
                   src={stage.image_url}
+                  fallbackSrc={illustrationByKey.get(`${scientificName}::${stage.stage_name}`)}
                   alt={`${speciesName} ${stage.stage_name} stage`}
                   variant="chip"
                 />
@@ -99,6 +122,7 @@ function StageTimeline({ stages, speciesName }: { stages: LifeStageRow[]; specie
             <div className="sm:w-64">
               <LifeStageImage
                 src={selected.image_url}
+                fallbackSrc={illustrationByKey.get(`${scientificName}::${selected.stage_name}`)}
                 alt={`Illustration of ${speciesName} at the ${selected.stage_name} stage`}
                 variant="panel"
               />
@@ -252,7 +276,11 @@ export function LifeCycleExplorerPage() {
 
                 {open && (
                   <div className="border-t border-forest-100 bg-cream-50/40 p-5">
-                    <StageTimeline stages={group.stages} speciesName={group.insect.common_name} />
+                    <StageTimeline
+                      stages={group.stages}
+                      speciesName={group.insect.common_name}
+                      scientificName={group.insect.scientific_name}
+                    />
                     <Link
                       to={`/museum/${group.insect.id}`}
                       className="mt-5 inline-flex items-center gap-1.5 text-sm font-medium text-forest-700 hover:text-forest-900"

@@ -41,8 +41,8 @@ id to the code.
 
 ### Database
 
-Apply migrations in order under `supabase/migrations/` (`00001` → `00015`). They are
-idempotent, so re-running one against an already-patched database is safe.
+Apply migrations in order under `supabase/migrations/` (`00001` → `00017`). They are
+idempotent where noted; see migration headers for details.
 
 | Migration | Contents |
 | --- | --- |
@@ -54,12 +54,17 @@ idempotent, so re-running one against an already-patched database is safe.
 | `00013` | Server-side quiz grading via `public.submit_quiz()`; hides `quiz_options.is_correct` |
 | `00014` | Completes the order checklist to 28 extant orders |
 | `00015` | Adds one family, genus and species for each of the 20 orders that had no specimens, plus their image references |
+| `00016` | Crop photos (populate `crops.image_url`, append CC-BY credits where required) |
+| `00017` | Lifecycle illustrations (metadata for life-cycle artwork) |
 
 `00015` needs its 20 image files present in the bucket first, so the museum never renders a
 reference to an object that does not exist. Upload them with `npm run host:extended`, then
 apply the migration. `00015` is deliberately not idempotent in its image update: it only
 writes to rows whose `images` array is still empty, so a hand-corrected photo is never
 clobbered on a re-run.
+
+`00016` and `00017` add images/metadata for crops and lifecycle illustrations; follow the script
+instructions in their respective sections before or when applying them.
 
 `00012` and `00013` are **required for the app to work in production** and are commonly
 missed when only the schema is set up. Without `00013` the quiz RPC does not exist and the

@@ -114,14 +114,28 @@ export function IdentifyPage() {
         )
         if (match) matchedIds[candidate.rank] = match.id
       }
+      const unmatched: string[] = []
       for (const candidate of identificationResult.candidates) {
-        candidate.insectId = matchedIds[candidate.rank]
+        const id = matchedIds[candidate.rank]
+        if (id) {
+          candidate.insectId = id
+        } else {
+          unmatched.push(`${candidate.commonName} (${candidate.scientificName})`)
+        }
+      }
+      if (unmatched.length > 0) {
+        console.warn('Unmatched species in identification result:', unmatched)
       }
 
       setResult(identificationResult)
       if (user) {
-        const id = await persistIdentification({ result: identificationResult, imageDataUrl, context })
-        if (id) setSavedId(id)
+        try {
+          const id = await persistIdentification({ result: identificationResult, imageDataUrl, context })
+          if (id) setSavedId(id)
+          else setError((prev) => prev || 'Identification completed, but could not be saved.')
+        } catch (e) {
+          setError((prev) => prev || 'Identification completed, but saving failed.')
+        }
       }
       setStage('result')
     } catch (err) {

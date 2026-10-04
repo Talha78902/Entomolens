@@ -168,7 +168,11 @@ alter table public.observations enable row level security;
 
 create policy "observations_select" on public.observations
   for select to anon, authenticated
-  using (visibility = 'public' or auth.uid() = user_id or public.is_admin());
+  using (
+    (visibility = 'public' and moderation_status = 'approved')
+    or auth.uid() = user_id
+    or public.is_admin()
+  );
 
 create policy "observations_insert" on public.observations
   for insert to authenticated with check (auth.uid() = user_id);

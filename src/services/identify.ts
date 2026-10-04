@@ -136,15 +136,19 @@ export async function persistIdentification(input: {
 
   const identificationId = (identification as { id: string }).id
 
-  const candidates = input.result.candidates.map((candidate) => ({
-    identification_id: identificationId,
-    insect_id: candidate.insectId ?? null,
-    rank: candidate.rank,
-    confidence: candidate.confidence,
-    confidence_label: candidate.confidenceLabel,
-  }))
+  const candidates = input.result.candidates
+    .filter((c) => c.insectId)
+    .map((candidate) => ({
+      identification_id: identificationId,
+      insect_id: candidate.insectId!,
+      rank: candidate.rank,
+      confidence: candidate.confidence,
+      confidence_label: candidate.confidenceLabel,
+    }))
 
-  await supabase.from('identification_candidates').insert(candidates)
+  if (candidates.length > 0) {
+    await supabase.from('identification_candidates').insert(candidates)
+  }
 
   const evidence = input.result.entomoScore
   await supabase.from('identification_evidence').insert({

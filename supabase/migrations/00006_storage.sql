@@ -86,7 +86,9 @@ create policy "observation_images_public_when_observation_public" on storage.obj
   using (bucket_id = 'observation-images'
          and exists (
            select 1 from public.observations o
-           where o.visibility = 'public' and o.image_path = name
+           where o.visibility = 'public'
+             and o.moderation_status = 'approved'
+             and o.image_path = name
          ));
 
 -- profile-images (per-user folders) ------------------------------------------------

@@ -80,7 +80,7 @@ export async function setUserRole(userId: string, role: RoleValue): Promise<bool
 export async function fetchAdminObservations(): Promise<Array<Record<string, unknown>>> {
   const supabase = tryGetSupabase()
   if (!supabase) return []
-  const { data } = await supabase
+  const { data, error } = await supabase
     .from('observations')
     .select(
       `id, created_at, observed_on, location_name, visibility, moderation_status,
@@ -88,6 +88,10 @@ export async function fetchAdminObservations(): Promise<Array<Record<string, unk
     )
     .order('created_at', { ascending: false })
     .limit(300)
+  if (error) {
+    console.error('Failed to fetch admin observations:', error)
+    return []
+  }
   return (data ?? []) as Array<Record<string, unknown>>
 }
 
