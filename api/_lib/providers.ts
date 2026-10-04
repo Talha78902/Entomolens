@@ -17,7 +17,7 @@ const GEMINI_ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta'
 
 const DEFAULT_TIMEOUT_MS = 45_000
 const MAX_ATTEMPTS = 3
-const MAX_INPUT_BYTES = 8 * 1024 * 1024
+const MAX_INPUT_BYTES = 4 * 1024 * 1024
 
 export class ProviderError extends Error {
   readonly status: number

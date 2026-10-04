@@ -134,6 +134,7 @@ export function IdentifyPage() {
           if (id) setSavedId(id)
           else setError((prev) => prev || 'Identification completed, but could not be saved.')
         } catch (e) {
+          console.error('Failed to persist identification:', e)
           setError((prev) => prev || 'Identification completed, but saving failed.')
         }
       }
