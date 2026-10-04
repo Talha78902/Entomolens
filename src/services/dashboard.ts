@@ -36,15 +36,12 @@ export async function fetchDashboardCounts(userId: string): Promise<DashboardCou
   for (const row of (questionRes.data ?? []) as Array<{ quiz_id: string }>) {
     questionCounts.set(row.quiz_id, (questionCounts.get(row.quiz_id) ?? 0) + 1)
   }
-  const attempts = (attemptRes.data ?? []) as Array<{ quiz_id: string; score: number }>
+  const attempts = (attemptRes.data ?? []) as Array<{ quiz_id: string; score: number; total_questions?: number }>
   if (attempts.length > 0) {
     let bestPercentage = 0
     for (const attempt of attempts) {
-      const total = questionCounts.get(attempt.quiz_id) ?? 0
-      if (total > 0) {
-        const pct = Math.round((attempt.score / total) * 100)
-        if (pct > bestPercentage) bestPercentage = pct
-      }
+      const pct = Math.round(attempt.score)
+      if (pct > bestPercentage) bestPercentage = pct
     }
     quizScore = bestPercentage > 0 ? bestPercentage : null
   }

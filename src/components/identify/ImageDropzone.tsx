@@ -93,6 +93,7 @@ export function ImageDropzone({
         <div
           role="button"
           tabIndex={0}
+          aria-live="polite"
           onClick={openPicker}
           onKeyDown={(event) => {
             if (event.key === 'Enter' || event.key === ' ') {

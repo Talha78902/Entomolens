@@ -12,7 +12,6 @@ const roles: Array<{ value: Profile['role']; label: string }> = [
   { value: 'student', label: 'Student' },
   { value: 'farmer', label: 'Farmer' },
   { value: 'researcher', label: 'Researcher' },
-  { value: 'entomologist', label: 'Entomologist' },
 ]
 
 export function SignupPage() {
