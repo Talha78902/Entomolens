@@ -66,7 +66,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   try {
     const body = (req.body ?? {}) as DamageBody
-    const imageDataUrl = clampText(body.imageDataUrl, 8 * 1024 * 1024)
+    const imageDataUrl = clampText(body.imageDataUrl, 4 * 1024 * 1024)
     const hasImage = Boolean(imageDataUrl)
 
     const answers = QUESTIONS.map(([key, label]) => {
