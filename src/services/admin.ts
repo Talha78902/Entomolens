@@ -205,7 +205,7 @@ export async function deleteCropAdmin(id: string): Promise<boolean> {
 }
 
 export async function fetchAdminReferences(): Promise<
-  Array<{ id: string; title: string; authors?: string | null; year?: number | null; journal?: string | null; created_at: string }>
+  Array<{ id: string; title: string; authors?: string[] | null; year?: number | null; journal?: string | null; created_at: string }>
 > {
   const supabase = tryGetSupabase()
   if (!supabase) return []
@@ -226,7 +226,7 @@ export async function fetchAdminReferences(): Promise<
 
 export async function createReferenceAdmin(input: {
   title: string
-  authors?: string | null
+  authors?: string[] | null
   year?: number | null
   journal?: string | null
 }): Promise<boolean> {
@@ -243,7 +243,7 @@ export async function createReferenceAdmin(input: {
 
 export async function updateReferenceAdmin(
   id: string,
-  input: { title: string; authors?: string | null; year?: number | null; journal?: string | null },
+  input: { title: string; authors?: string[] | null; year?: number | null; journal?: string | null },
 ): Promise<boolean> {
   const supabase = tryGetSupabase()
   if (!supabase) return false

@@ -27,9 +27,15 @@ export function ManageReferencesPage() {
 
   const saveMutation = useMutation({
     mutationFn: ({ id, values }: { id: string | null; values: Record<string, string> }) => {
+      const authorsVal = values.authors || ''
       const input = {
         title: values.title ?? '',
-        authors: values.authors || null,
+        authors: authorsVal
+          ? authorsVal
+              .split(',')
+              .map((a) => a.trim())
+              .filter((a) => a.length > 0)
+          : [],
         year: values.year ? Number(values.year) : null,
         journal: values.journal || null,
       }
